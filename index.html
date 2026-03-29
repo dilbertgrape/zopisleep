@@ -14,17 +14,6 @@
       color: #1f2937;
     }
 
-    
-
-    
-
-    .container {
-      max-width: 800px;
-      margin: auto;
-      padding: 60px 20px;
-      text-align: center;
-    }
-
     .logo {
       width: 50px;
       height: 50px;
@@ -34,6 +23,13 @@
       border-radius: 50%;
       overflow: hidden;
       box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    }
+
+    .container {
+      max-width: 700px;
+      margin: auto;
+      padding: 80px 20px;
+      text-align: center;
     }
 
     h1 {
@@ -49,22 +45,45 @@
     }
 
     .card {
-      background: rgba(255,255,255,0.7);
-      backdrop-filter: blur(10px);
-      padding: 30px;
+      background: white;
+      padding: 25px;
       border-radius: 16px;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+      margin-bottom: 20px;
+    }
+
+    .features {
+      text-align: left;
+      margin-top: 20px;
+    }
+
+    .features div {
+      margin-bottom: 10px;
     }
 
     .btn {
-      display: inline-block;
-      padding: 15px 30px;
+      display: block;
+      width: 100%;
+      padding: 15px;
       background: linear-gradient(90deg, #818cf8, #c084fc);
       color: white;
       text-decoration: none;
       border-radius: 10px;
       margin-top: 20px;
       font-weight: 600;
+    }
+
+    .reviews {
+      margin-top: 30px;
+    }
+
+    .review {
+      background: white;
+      padding: 15px;
+      border-radius: 10px;
+      margin-bottom: 10px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+      font-size: 14px;
     }
 
     .whatsapp {
@@ -83,11 +102,7 @@
 </head>
 <body>
 
-
-
-<div class="container">
-
-  <div class="logo">
+<div class="logo">
   <svg viewBox="0 0 100 100" width="100%" height="100%">
     <defs>
       <linearGradient id="grad" x1="0" y1="0" x2="1" y2="1">
@@ -100,13 +115,29 @@
   </svg>
 </div>
 
+<div class="container">
+
   <h1>Zopisleep</h1>
-  <p class="subtitle">Better sleep starts tonight 🌙</p>
+  <p class="subtitle">Sleep Better Tonight 🌙</p>
 
   <div class="card">
-    <p>Whatsapp for more information.</p>
+    <h2>Natural Herbal Sleep Support</h2>
+    <p>Fall asleep faster and wake up refreshed with safe, natural sleep solutions.</p>
 
-    <a href="https://wa.me/447877046090" class="btn">WhatsApp</a>
+    <div class="features">
+      <div>✔️ Helps you fall asleep faster</div>
+      <div>✔️ Reduces stress and anxiety</div>
+      <div>✔️ Non-prescription herbal support</div>
+      <div>✔️ Fast UK delivery</div>
+    </div>
+
+    <a href="https://wa.me/447877046090" class="btn">Order via WhatsApp</a>
+  </div>
+
+  <div class="reviews">
+    <div class="review">"Worked better than expected, I sleep through the night now." ⭐⭐⭐⭐⭐</div>
+    <div class="review">"Fast response on WhatsApp and really helpful." ⭐⭐⭐⭐⭐</div>
+    <div class="review">"Natural and no side effects for me." ⭐⭐⭐⭐☆</div>
   </div>
 
 </div>
